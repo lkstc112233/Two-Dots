@@ -1,4 +1,4 @@
-package sample;
+package com.photoncat.twodots;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

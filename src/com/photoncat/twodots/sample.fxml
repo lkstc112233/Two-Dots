@@ -3,6 +3,15 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="com.photoncat.twodots.Controller"
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Path?>
+<GridPane fx:controller="com.photoncat.twodots.FrameController"
+          onMousePressed="#onMousePressed"
+          onMouseReleased="#onMouseReleased"
+          onMouseDragged="#onMouseDragged"
+          fx:id="root"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Path fx:id="painter" strokeWidth="10"/>
 </GridPane>
